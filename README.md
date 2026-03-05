@@ -12,7 +12,7 @@
 |**Application Title**<br>Störung melden|
 |**Namespace**<br>|
 |**UI5 Theme**<br>sap_horizon_dark|
-|**UI5 Version**<br>1.127.6|
+|**UI5 Version**<br>1.145.0|
 |**Enable Code Assist Libraries**<br>False|
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|
