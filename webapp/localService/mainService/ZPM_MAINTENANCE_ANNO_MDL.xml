@@ -18,58 +18,6 @@
                 <Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/>
                 <Annotation Term="UI.Hidden"/>
             </Annotations>
-            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_DOCType/DocumentId">
-                <Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/>
-                <Annotation Term="UI.Hidden"/>
-            </Annotations>
-            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_DOCType/NotificationId">
-                <Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/>
-                <Annotation Term="UI.Hidden"/>
-            </Annotations>
-            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_DOCType/XStringVal">
-                <Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/>
-                <Annotation Term="UI.Hidden"/>
-            </Annotations>
-            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_DOCType/MimeType">
-                <Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/>
-                <Annotation Term="UI.Hidden"/>
-            </Annotations>
-            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_DOCType">
-                <Annotation Term="UI.Identification">
-                    <Collection>
-                        <Record Type="UI.DataField">
-                            <PropertyValue Property="Value" Path="DocumentId"/>
-                        </Record>
-                    </Collection>
-                </Annotation>
-                <Annotation Term="UI.LineItem">
-                    <Collection>
-                        <Record Type="UI.DataField">
-                            <PropertyValue Property="Label" String="Dokumentname"/>
-                            <PropertyValue Property="Value" Path="DocumentName"/>
-                        </Record>
-                        <Record Type="UI.DataField">
-                            <PropertyValue Property="Label" String="Benutzer"/>
-                            <PropertyValue Property="Value" Path="CreationUser"/>
-                        </Record>
-                        <Record Type="UI.DataField">
-                            <PropertyValue Property="Label" String="Uploadzeit"/>
-                            <PropertyValue Property="Value" Path="CreationTime"/>
-                        </Record>
-                    </Collection>
-                </Annotation>
-            </Annotations>
-            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_NOTIFType/UUID">
-                <Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/>
-                <Annotation Term="UI.Hidden"/>
-            </Annotations>
-            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_NOTIFType/Description">
-                <Annotation Term="UI.MultiLineText"/>
-            </Annotations>
-            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_NOTIFType/Code"/>
-            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_NOTIFType/Priority"/>
-            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_NOTIFType/Declarant"/>
-            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_NOTIFType/Assigned"/>
             <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_PRIOK_VHType/">
                 <Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/>
                 <Annotation Term="UI.Hidden"/>
@@ -129,6 +77,58 @@
                     </Collection>
                 </Annotation>
             </Annotations>
+            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_DOCType/DocumentId">
+                <Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/>
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_DOCType/NotificationId">
+                <Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/>
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_DOCType/XStringVal">
+                <Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/>
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_DOCType/MimeType">
+                <Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/>
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_DOCType">
+                <Annotation Term="UI.Identification">
+                    <Collection>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="DocumentId"/>
+                        </Record>
+                    </Collection>
+                </Annotation>
+                <Annotation Term="UI.LineItem">
+                    <Collection>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Label" String="Dokumentname"/>
+                            <PropertyValue Property="Value" Path="DocumentName"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Label" String="Benutzer"/>
+                            <PropertyValue Property="Value" Path="CreationUser"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Label" String="Uploadzeit"/>
+                            <PropertyValue Property="Value" Path="CreationTime"/>
+                        </Record>
+                    </Collection>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_NOTIFType/UUID">
+                <Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/>
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_NOTIFType/Description">
+                <Annotation Term="UI.MultiLineText"/>
+            </Annotations>
+            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_NOTIFType/Code"/>
+            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_NOTIFType/Priority"/>
+            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_NOTIFType/Declarant"/>
+            <Annotations Target="ZPM_MAINTENANCE_SRV.ZD4P_C_PM_NOTIFType/Assigned"/>
         </Schema>
     </edmx:DataServices>
 </edmx:Edmx>
